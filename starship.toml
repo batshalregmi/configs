@@ -9,6 +9,9 @@ $character\
 """
 
 
+[cmd_duration]
+disabled = false
+min_time = 5_000
 
 [character]
 success_symbol = "[➜](bold cyan)"
@@ -23,6 +26,3 @@ ssh_only=false
 [time]
 disabled = false
 use_12hr = true
-
-
-
