@@ -10,7 +10,7 @@ HISTFILE=~/.cache/zsh/history
 
 
 unsetopt cdablevars # autocomplete thing
-bindkey '\t' end-of-line # moves to end of line when pressing tab, usefulf or autocomplete
+bindkey '\t' end-of-line # moves to end of line when pressing tab, useful for autocomplete
 bindkey '^H' backward-kill-word #ctrl + backspace support 
 
 
