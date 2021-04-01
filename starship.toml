@@ -9,11 +9,12 @@ $character\
 """
 
 
+
 [character]
-symbol = "\n(∩｀-´)⊃ "
-error_symbol = "\n(ง •̀_•́)ง "
-style_success = "bold green"
-use_symbol_for_status = true
+success_symbol = "[➜](bold cyan)"
+error_symbol = "[✗](bold red)"
+
+
 
 [hostname]
 ssh_only=false
@@ -22,3 +23,6 @@ ssh_only=false
 [time]
 disabled = false
 use_12hr = true
+
+
+
