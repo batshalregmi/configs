@@ -4,19 +4,18 @@ _comp_options+=(globdots)
 
 
 
-HISTSIZE=10000000
-SAVEHIST=10000000
+HISTSIZE=100
+SAVEHIST=100
 HISTFILE=~/.cache/zsh/history
 
 
 unsetopt cdablevars # autocomplete thing
-bindkey '\t' end-of-line # moves to end of line when pressing tab, useful for autocomplete
+bindkey '\t' end-of-line # moves to end of line when pressing tab, usefulf or autocomplete
 bindkey '^H' backward-kill-word #ctrl + backspace support 
 
 
 
 export ZSH_AUTOSUGGEST_STRATEGY=(
-	history
 	completion
 )
 
