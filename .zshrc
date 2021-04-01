@@ -1,6 +1,3 @@
-
-
-
 # show hidden files
 compinit
 _comp_options+=(globdots)
@@ -25,9 +22,9 @@ export ZSH_AUTOSUGGEST_STRATEGY=(
 
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/command-not-found/command-not-found.plugin.zsh
 
-
-
+alias ls='lsd -a'
 
 
 eval "$(starship init zsh)"
