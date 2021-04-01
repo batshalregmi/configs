@@ -1,0 +1,24 @@
+add_newline = false
+
+format = """
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character\
+"""
+
+
+[character]
+symbol = "\n(∩｀-´)⊃ "
+error_symbol = "\n(ง •̀_•́)ง "
+style_success = "bold green"
+use_symbol_for_status = true
+
+[hostname]
+ssh_only=false
+
+
+[time]
+disabled = false
+use_12hr = true
